@@ -1,0 +1,20 @@
+
+Create an environment using venv
+
+1. Open a terminal and navigate to your project folder.
+
+python -m venv .venv
+
+2. Any time you want to use your new environment, you first need to go to your project folder (where the .venv directory lives) and run the command to activate it:
+# Windows command prompt
+.venv\Scripts\activate.bat
+
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+
+# macOS and Linux
+source .venv/bin/activate
+
+3. When you're done using this environment, return to your normal shell by typing:
+
+deactivate
